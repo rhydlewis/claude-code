@@ -1,6 +1,6 @@
 ---
 allowed-tools: Bash(bd *), AskUserQuestion
-argument-hint: <bead-id>
+argument-hint: "<bead-id>"
 description: Decompose large work items into smaller, manageable beads using proven decomposition strategies
 ---
 
@@ -14,7 +14,9 @@ Break down complex work items into smaller, more manageable pieces using proven 
 
 ## Current Context
 
-Bead to split: !`bd show $1`
+Bead ID to split: `$1`
+
+First, show the bead details by running `bd show $1`
 
 ## Decomposition Strategies
 

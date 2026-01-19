@@ -1,6 +1,6 @@
 ---
 allowed-tools: AskUserQuestion, Bash(bd *)
-argument-hint: [optional: idea description]
+argument-hint: "[optional: idea description]"
 description: Interactive tool to refine vague ideas into well-defined, actionable work items
 ---
 

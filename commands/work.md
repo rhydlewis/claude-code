@@ -1,9 +1,7 @@
 ---
-allowed-tools: Bash(bd *), Bash(git *), Bash(pwd:*), Skill(start)
-argument-hint: [optional: bead-id]
+allowed-tools: Bash(bd *), Bash(git *), Bash(pwd), Skill(start), AskUserQuestion
+argument-hint: "[optional: bead-id]"
 description: Work on a bead - auto-selects highest priority or accepts specific bead ID
-context: fork
-agent: general-purpose
 ---
 
 ## Current Context
